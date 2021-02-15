@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h1>pomodoro timer</h1>
+    <timer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import timer from '../components/timer'
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
-    HelloWorld
+    timer
   }
-};
+}
 </script>
