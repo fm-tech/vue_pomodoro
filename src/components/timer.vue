@@ -57,9 +57,6 @@
         >
           Restart
         </vs-button>
-        <!-- For troubleshooting -->
-        <!-- <p>{{ screen }}</p>
-        <p>{{ sessWidth }}</p> -->
       </div>
     </div>
   </section>
